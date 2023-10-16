@@ -1,10 +1,11 @@
-
+"use client"
 import Link from 'next/link'
 import React from 'react'
 
 
 
 const Gather_them = () => {
+
   return (
    <>
    <div className='gather bg-rose-300 sm:p-24 sm:h-screen'>
@@ -18,14 +19,15 @@ const Gather_them = () => {
           only enter if your are over the age 18
         </p>
         <div className='mt-5 flex flex-row gap-4'>
-          <Link href="./">
-          <button className='px-3 py-2 rounded border capitalize text-black tracking-wider font-bold bg-white'>age under 18</button>
-          </Link>
+         <Link href="./all/Alert">
+         <button className='px-3 py-2 rounded border capitalize text-black tracking-wider font-bold bg-white' >age under 18</button>
+         </Link>
+
          <Link href='/all'>
           <button className='px-5 py-2 rounded border capitalize text-black tracking-wider font-bold bg-white'>yes adult</button>
          </Link>
         </div>
-        </div>
+        </div> 
    </div>
    
    </>
