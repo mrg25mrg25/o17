@@ -1,9 +1,13 @@
 import React from 'react'
-
+import One from "./(pages)/One/page"
+import Two from "./(pages)/Two/page"
+import Three from "./(pages)/Three/page"
 const page = () => {
   return (
     <div>
-      now
+      <One/>
+      <Two/>
+      <Three/>
     </div>
   )
 }
